@@ -7,7 +7,7 @@ public class BinaryOperatorExample {
 
 	public static void main(String[] args) {
 		
-		Comparator<Integer> comparator = (a, b) -> (b.compareTo(a));
+		Comparator<Integer> comparator = (a, b) -> (a.compareTo(b));
 		
 		Comparator<Integer> comparator1 = (a, b) -> a+b;
 		Comparator<Integer> comparator2 = (a, b) -> a-b;

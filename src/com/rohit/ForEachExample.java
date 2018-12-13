@@ -22,6 +22,8 @@ public class ForEachExample {
 		
 		List result=number.stream().map(x->x*x).collect(Collectors.toList());
 		result.stream().forEach(y-> System.out.print(" " +y));
+		System.out.println();
+		result.stream().forEach(System.out :: println);
 		
 		System.out.println();
 		
